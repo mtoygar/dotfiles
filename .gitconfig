@@ -1,0 +1,19 @@
+[user]
+        name = Murat Toygar
+        email = toygar-murat@hotmail.com
+[core]
+        excludesfile = /Users/murattoygar/.gitignore_global
+[alias] # https://stackoverflow.com/questions/15661853/list-all-local-branches-without-a-remote
+        # list local branches that are not pushed to remote
+        local-branches = !git branch -vv | cut -c 3- | awk '$3 !~/\\[/ { print $1 }'
+[alias]
+        # list local branches that have been deleted from remote
+        gone-branches = !git remote prune origin && git branch -vv | grep ': gone]' | awk '{print $1}'
+[alias] # https://stackoverflow.com/questions/15661853/list-all-local-branches-without-a-remote
+        # delete local branches that have been deleted from remote
+        # xargs wont accept -r flag on macos. this sometimes lead to "fatal: branch name required" error messages
+        prune-branches = !git remote prune origin && git branch -vv | grep ': gone]' | awk '{print $1}' | xargs git branch -D
+[init]
+  defaultBranch = main
+[core]
+  editor = subl -n -w
