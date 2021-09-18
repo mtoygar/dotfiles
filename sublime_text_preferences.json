@@ -1,0 +1,60 @@
+{
+  "binary_file_patterns":
+  [
+    "*.jpg",
+    "*.jpeg",
+    "*.png",
+    "*.gif",
+    "*.ttf",
+    "*.tga",
+    "*.dds",
+    "*.ico",
+    "*.eot",
+    "*.pdf",
+    "*.swf",
+    "*.jar",
+    "*.zip",
+    "*.js.map",
+    "*.map",
+    "*.xslt",
+    "*.dump",
+    "*.log"
+  ],
+  "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+  "ensure_newline_at_eof_on_save": true,
+  "folder_exclude_patterns":
+  [
+    ".svn",
+    ".git",
+    ".hg",
+    ".sass-cache",
+    "coverage",
+    "CVS",
+    "dist",
+    "gzip",
+    "tmp",
+    "bower_components",
+    "node_modules",
+    "vendor",
+    "fixtures",
+    "public/assets",
+    "public/packs",
+    "public/packs-tests"
+  ],
+  "font-face": "Monaco",
+  "font_size": 14.0,
+  "highlight_line": true,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "rulers":
+  [
+    100
+  ],
+  "show_navigation_bar": false,
+  "tab_size": 2,
+  "theme": "Material-Theme.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true
+}
