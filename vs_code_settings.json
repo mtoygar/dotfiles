@@ -1,0 +1,21 @@
+{
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.renderSideBySide": false,
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "files.insertFinalNewline": true,
+  "js/ts.implicitProjectConfig.experimentalDecorators": true,
+  "eslint.alwaysShowStatus": true,
+  "ruby.lint": {
+    "rubocop": {
+      "useBundler": true
+    }
+  },
+  "ruby.format": "rubocop",
+  "ruby.useBundler": true,
+  "ruby.useLanguageServer": true,
+  "workbench.editor.focusRecentEditorAfterClose": false,
+  "editor.tabSize": 2,
+  "svg.preview.mode": "img",
+  "eslint.run": "onSave"
+}
