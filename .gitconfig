@@ -17,3 +17,5 @@
   defaultBranch = main
 [core]
   editor = subl -n -w
+[push]
+    default = current
